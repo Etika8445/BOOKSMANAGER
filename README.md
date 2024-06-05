@@ -21,7 +21,7 @@ A React application that allows users to search for books using the Open Library
 
 ## Demo
 
-You can view a live demo of the application [here](#booksmanager.vercel.app/).
+You can view a live demo of the application [here](https://booksmanager.vercel.app/).
 
 ## Prerequisites
 
