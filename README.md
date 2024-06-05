@@ -11,8 +11,6 @@ A React application that allows users to search for books using the Open Library
 - [Running the Application](#running-the-application)
 - [Usage](#usage)
 - [Technology Stack](#technology-stack)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -37,3 +35,19 @@ Before you begin, ensure you have met the following requirements:
 1. Clone the repository
    ```bash
    git clone https://github.com/your-username/personal-bookshelf.git
+
+2.  Navigate to the project directory
+   ```bash
+   cd personal-bookshelf
+3.  Install the dependencies
+   ```bash
+   npm install
+
+## Running the Application
+
+To run the application locally, follow these steps:
+
+1.  Start the development server
+   ```bash
+   npm run dev
+2.   Open your web browser and navigate to http://localhost:5173.
