@@ -1,0 +1,81 @@
+/* Allcards.jsx */
+.layout-Cardpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 20% 0 20%;
+}
+
+
+/* Card.jsx */
+.card-layout{
+  height: 250px;
+  width: 200px;
+  padding: 1%;
+  border-style:solid;
+  border-width: 1px;
+  border-radius: 10px;
+  margin: 10px 10px 0 0;
+}
+.card-title{
+  width: 100%;
+  display: flex;
+}
+.card-title p{
+  font-weight:700;
+}
+.card-tname{
+  height: auto;
+  width: 54%;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+.card-button{
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+}
+.card-button button{
+  border-radius: 15px;
+  background-color: #1aa03b;
+  border-style: none;
+  padding: 12px;
+  color: white;
+}
+
+
+/* Search.jsx */
+input{
+  width: 20%;
+  border:  2px black solid ;
+  border-radius: 5px;
+  height: 20px;
+  margin-bottom: 3%;
+}
+.search-layout{
+  position:relative;
+}
+.bookshelf-button{
+  position: absolute;
+  top:3%;
+  right: 5%;
+}
+.bookshelf-button button{
+  border-radius: 15px;
+  background-color: #1aa03b;
+  border-style: none;
+  padding: 12px;
+  color: white;
+}
+
+
+@media (width<=600px){
+  .search-layout{
+    margin-top: 20%;
+    padding: 1%;
+  }
+  .bookshelf-button{
+    top:1%;
+  }
+}
