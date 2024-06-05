@@ -27,11 +27,11 @@ const Card = ({ key, title, count }) => {
                                                                       // showing data in structured form 
     <div className="card-layout" key={key}>
       <div className="card-title">
-        <p>Book Title:</p>
+        <p className="card-book">Book Title:</p>
         <div className="card-tname">{title}</div>
       </div>
       <div className="card-title">
-        <p>Edition Count:</p>
+        <p style={{fontWeight:"700"}}>Edition Count:</p>
         <div style={{ paddingTop: "16px", paddingLeft: "2px" }}>{count}</div>
       </div>
       {!isAdded && <div className="card-button"><button onClick={() => { addToCart(title, count) }}>Add to Bookshelf</button></div>}
