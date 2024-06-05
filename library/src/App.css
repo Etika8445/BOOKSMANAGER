@@ -22,14 +22,15 @@
   width: 100%;
   display: flex;
 }
-.card-title p{
+.card-book{
   font-weight:700;
+  width: 90px;
 }
 .card-tname{
   height: auto;
   width: 54%;
   padding-top: 15px;
-  padding-left: 15px;
+  padding-left: 4%;
 }
 .card-button{
   display: flex;
@@ -77,5 +78,9 @@ input{
   }
   .bookshelf-button{
     top:1%;
+  }
+  .card-layout{
+    height:280px;
+    width: 210px;
   }
 }
