@@ -53,3 +53,22 @@ To run the application locally, follow these steps:
     npm run dev
     
 2.  Open your web browser and navigate to http://localhost:5173.
+
+## Usage
+
+**Book Search Page**
+- Type a book's name in the search input field to get real-time search results.
+- Browse through the list of search results displayed as cards.
+- Click the "Add to Bookshelf" button on a card to add the book to your personal bookshelf.
+
+**Personal Bookshelf Page**
+-Click on the "My Bookshelf" button to navigate to your personal bookshelf page.
+-View the books you have added.
+-Your bookshelf is stored in localStorage, so it persists across page reloads and browser sessions.
+
+## Technology Stack
+
+- **React:** Front-end library for building user interfaces
+- **Open Library API:** Used for fetching book data
+- **localStorage:** Web Storage API for persisting user data
+- **CSS:** For styling the components
