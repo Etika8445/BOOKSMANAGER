@@ -36,10 +36,11 @@ Before you begin, ensure you have met the following requirements:
    ```bash
    git clone https://github.com/your-username/personal-bookshelf.git
 
-2.  Navigate to the project directory
+2. Navigate to the project directory
    ```bash
    cd personal-bookshelf
-3.  Install the dependencies
+
+3. Install the dependencies
    ```bash
    npm install
 
@@ -48,6 +49,7 @@ Before you begin, ensure you have met the following requirements:
 To run the application locally, follow these steps:
 
 1.  Start the development server
-   ```bash
-   npm run dev
-2.   Open your web browser and navigate to http://localhost:5173.
+    ```bash
+    npm run dev
+    
+2.  Open your web browser and navigate to http://localhost:5173.
