@@ -21,7 +21,7 @@ A React application that allows users to search for books using the Open Library
 
 ## Demo
 
-You can view a live demo of the application [here](#).
+You can view a live demo of the application [here](#https://booksmanager.vercel.app/).
 
 ## Prerequisites
 
@@ -62,6 +62,7 @@ To run the application locally, follow these steps:
 - Click the "Add to Bookshelf" button on a card to add the book to your personal bookshelf.
 
 **Personal Bookshelf Page**
+
 -Click on the "My Bookshelf" button to navigate to your personal bookshelf page.
 -View the books you have added.
 -Your bookshelf is stored in localStorage, so it persists across page reloads and browser sessions.
